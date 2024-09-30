@@ -35,5 +35,5 @@ Ensure that **Node.js** and **npm** are installed on your machine.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/react-todo-list-app.git
+   git clone https://github.com/SalmanO7/react-todo-list-app.git
    cd react-todo-list-app
