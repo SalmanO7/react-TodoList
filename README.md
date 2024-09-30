@@ -24,8 +24,22 @@ This is a simple, user-friendly **To-Do List application** built with **React.js
 - **Local Storage**: For persisting tasks across sessions to provide data persistence.
 - **JavaScript (ES6+)**: The primary language used to build the application.
 
----
+src/
+├── components/
+│   ├── TaskList.js        # Displays the list of tasks
+│   ├── AddTask.js         # Form to add a new task
+│   ├── EditTask.js        # Form to edit an existing task
+│   ├── TaskItem.js        # Individual task component
+├── pages/
+│   ├── Home.js            # Main page showing the task list
+│   ├── AddTaskPage.js     # Page for adding a new task
+│   ├── EditTaskPage.js    # Page for editing a task
+├── App.js                 # Main component with React Router setup
+├── index.js               # Entry point of the app
+└── styles/                # Optional: Custom CSS overrides for Bootstrap
 
+
+---
 ## Getting Started 🛠️
 
 To get a local copy up and running, follow these simple steps.
